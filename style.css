@@ -1,0 +1,328 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    height: 75px;
+    line-height: 75px;
+    background-color: rgb(70, 66, 66);
+}
+
+
+
+nav .navList{
+    display: flex;
+}
+
+nav .navList .navItem{
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: .4s;
+}
+
+nav .navList .navLink {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 675px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15%;
+        height: 75px;
+        line-height: 75px;
+        background-color: rgb(255, 255, 255);
+    }
+    .Login{
+        
+        display: flex;
+    }
+    .Login img{
+        position: relative;
+        height: 60%;
+       top: 10px;
+        left: 67px;
+    }
+    .Login p{
+        color: black;
+        font-size: 1rem;
+        position: relative;
+        top: 2px;
+        left: 75px;
+    }
+    nav .navList{
+        display: grid;
+        position: absolute;
+        background-color: rgb(215, 117, 5);
+        width: 100%;
+        top: 75px;
+        left: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: .6s;
+    }
+    nav .navList .navItem{
+        padding-left: 35px;
+    }
+    nav .navToggler{
+        display: grid !important;
+    }
+    nav .logo{
+        width: 45%;
+        position: relative;
+        left: 33px;
+        top: 12px;
+    }
+    nav .navToggler{
+        position: relative;
+        right: 270px;
+        height:min-content;
+    }
+
+    nav .navToggler .sp{
+        width: 40px;
+        height: 5px;
+        margin-bottom: 10px;
+        background: #747474;
+        border-radius: 10%;
+        transition: .4s;
+    }
+    .continer{
+        display: flex;
+        flex-direction: column;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .blue p{
+        color: white;
+        font-size: 0.9rem;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .blue span{
+        color: #ecac81;
+        font-weight: bolder;
+    }
+    .blue ul{
+        display: flex;
+        padding-left: 20px;
+        color: white;
+    }
+    .blue .listB{
+        color: white;
+        font-weight: bolder;
+    }
+    .img1{
+        padding-top: 20px;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .section2 h5{
+        color: #948479;
+    }
+    .section2 h2{
+        width: 100%;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .section2 p{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .section3{
+        background-color: #f5f6ea;
+        margin-top: 20px;
+    }
+    .section3 h3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .section3 .imgs{
+        padding-left: 15px;
+    }
+    .li1{
+        font-weight: bolder;
+        position: relative;
+        left: 153px;
+        bottom: 50px;
+    }
+    .section4 h3{
+       
+       text-decoration: underline;
+       text-decoration-color: #e7ab46;
+       text-decoration-thickness: 7px;
+       display: flex;
+       justify-content: center;
+    }
+  
+    .imgsFood{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .imgsFood h5{
+        color: #948479;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    .imgsFood p{
+        font-weight: bolder;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+    .section5{
+        border: 4px solid #f9a83b;
+    }
+    .section5 h1{
+        display: flex;
+        justify-content: center;
+        color: #fbd657;
+    }
+    .prg1{
+        width: 70%;
+        font-weight: bold;
+        padding-left: 60px;
+    }
+    .prg1 span{
+        color: #d85027;
+        font-weight: bold;
+        width: 100%;
+        position: relative;
+        top: 3px;
+    }
+    .Fluffy{
+        font-weight: bold; 
+        text-decoration: underline; 
+        text-decoration-color: #e7ab46;
+        text-decoration-thickness: 1px;
+        margin-bottom: 15px; 
+        display: flex; 
+        justify-content: center;
+    }
+    .prg2{
+        padding-left: 55px;
+        width: 80%;
+    }
+    .Cynthia{
+        font-weight: bold; 
+        margin-bottom: 15px;
+        margin-top: 5px;
+        display: flex; 
+        justify-content: center;
+    }
+    .iconSM{
+        position: relative;
+        left: 70px;
+    }
+    .prg3{
+        padding-left: 40px;
+        width: 70%;
+        padding-top: 6px;
+    }
+    .People1 .caps{
+        color: #d85027;
+        font-weight: bold;
+        width: 100%;
+        font-size: 12px;
+        position: relative;
+        top: 3px;
+        left: 4px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .imgP1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .section6{
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+    }
+    .logoFoter{
+        width: 30%;
+        position: relative;
+        top: 14px;
+        left: 98px;
+    }
+    .newsLet{
+        background-color: white;
+        border: 2px solid #d85027;
+        width: 50%;
+        height: 70%;
+        padding: 20px 20px;
+        position: relative;
+        left: 60px;
+        margin-bottom: 35px;
+    }
+    .newsLet a{
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    .imgFollow{
+        width: 70%;
+        position: relative;
+        left: 40px;
+    }
+    .listfooter{
+        position: relative;
+        left: 40px;
+    }
+    .listfooter ul{
+        display: grid;
+        grid-template-columns: auto auto;
+        list-style: none;
+        font-weight: bold;
+    }
+    .listfooter2{
+        position: relative;
+        left: 40px;
+    }
+    .listfooter2 ul{
+        display: grid;
+        grid-template-columns: auto auto;
+        list-style: none;
+    }
+}
+
+
+nav .navToggler{
+    display: none;
+    height: min-content;
+    margin: 18px -10px 0 0;
+    cursor: pointer;
+}
+
+
+
+input{
+    display: none;
+}
+
+input:checked ~ nav .navList {
+    transform: translateY(0);
+}
